@@ -12,8 +12,8 @@ def pregunta_01():
     colors ={
         'Television': 'dimgray',
         'Newspaper': 'grey',
-        'Internet': 'tab: blue',
-        'Rodio' : "lightgrey",
+        'Internet': ' blue',
+        'Radio' : "lightgrey",
         }
     zorder = {
         'Television': 1,
