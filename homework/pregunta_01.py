@@ -28,7 +28,7 @@ def pregunta_01():
         'Radio' : 2,
         }
     for col in df.columns:
-        plt.plot(df[col],color=colors[col], label=col, zorder=zorder[col],linewidths=linewidths[col],)
+        plt.plot(df[col],color=colors[col], label=col, zorder=zorder[col],linewidth=linewidths[col],)
     plt.title("How people get their news",fontsize=16)
     plt.gca().spines['top'].set_visible(False)
     plt.gca().spines['left'].set_visible(False)
