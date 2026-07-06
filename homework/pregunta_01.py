@@ -63,13 +63,13 @@ def pregunta_01():
         ticks=df.index,
         labels=df.index,
         ha='center',)
-ruta_archivo = 'files/plots/news.png'
-ruta_carpeta = os.path.dirname(ruta_archivo)
-os.makedirs(ruta_carpeta, exist_ok=True)
-# 4. Guardar el gráfico en la ruta especificada
-plt.tight_layout()
-plt.savefig(ruta_archivo)
 
+    ruta_archivo = 'files/plots/news.png'
+    ruta_carpeta = os.path.dirname(ruta_archivo)
+    os.makedirs(ruta_carpeta, exist_ok=True)
+
+    plt.tight_layout()
+    plt.savefig(ruta_archivo)
 
     # plt.legend(loc="Upper right")
     
