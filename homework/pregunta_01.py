@@ -8,7 +8,7 @@ import pandas as pd
 import os
 def pregunta_01():
     plt.figure()
-    df=pd.read_csv('news.csv',index_col=0)
+    df=pd.read_csv('files/input/news.csv',index_col=0)
     colors ={
         'Television': 'dimgray',
         'Newspaper': 'grey',
